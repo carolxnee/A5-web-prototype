@@ -97,15 +97,15 @@
     margin: 0;
     width: 100%;
     position: absolute;
-    top: -1000px;
+    //top: -1000px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: -1;
-    background: #000000;
+    background: #fff;
 }
-
+//hamburger menu background
 .navbar-menu.active{
-  background: #000000;
+  background: #fff;
   top: 100%;
   opacity: 1;
   transition: all 0.5s ease;
@@ -124,7 +124,7 @@
   height: 3px;
   margin: 5px auto;
   transition: all 0.3 ease-in-out;
-  background: #000000
+  background: #000000;
 }
 
 .navbar-item{
@@ -133,12 +133,13 @@
 
 .navbar-links{
   text-align: center;
-  padding: 2em;
+  padding: 2em 10em 0em 0em;
   width: 100%;
   display: table;
 }
 
 .navbar-btn{
+  padding: 0em 10em 0em 0em;
   padding-bottom: 2em;
 }
 
@@ -164,6 +165,14 @@
   cursor: pointer;
 }
 
-#mobile-menu.is-active .bar:nth-child(2)
-
+/*rotating hamburger icon to exit icon */
+#mobile-menu.is-active .bar:nth-child(2) {
+  opacity: 0; 
+  }
+#mobile-menu.is-active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  }
+#mobile-menu.is-active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg); 
+  }
 }
