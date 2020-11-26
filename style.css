@@ -6,6 +6,7 @@
   scroll-behaviour: smooth;
 }
 
+/* Navigation Bar */
 .navbar{
   background: #fff;
   height: 80px;
@@ -75,7 +76,7 @@
   transition: all 0.3s ease;
   }
 
-/* Affordances to let user know these are links */
+/* underline used as an affordance to let user know these are links */
 .navbar-links:hover{
   text-decoration: underline;
 }
@@ -409,10 +410,21 @@
   cursor: pointer;
 }
 
+/* affordances created using scale animation */
 .projects-card:hover{
   transform:scale(1.075);
   transition: 0.5s ease in;
   cursor: pointer;
 }
+
+/* mobile friendly 'Current Projects' page */
+@media screen and (max-width: 1300px){
+  .projects-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
 
 
