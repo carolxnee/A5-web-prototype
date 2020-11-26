@@ -178,24 +178,28 @@
 }
 
 /* Hero Section */
+
 .hero{
-  background: url('forest.cpr.jpg');
+  /* gradient added to background to help see words clearer*/
+  background: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),
+  url('forest.cpr.jpg');
   height: 100vh;
   background-position: center;
   background-size: cover;
-
+  
   
 }
 .hero-heading{
   /* background: url('forest.jpg');; */
   padding: 70px 0px 20px 0px;
-  color: #000;
+  color: #fff;
   font-size: 30px;
 }
 
  .hero-description{ 
   /* background:url('forest.jpg'); */
   padding: 0px 0px 20px 0px;
+  color:#fff;
  }
 
 /*.main-btn{
@@ -215,7 +219,8 @@
   padding: 30px;
 }
 
-.hero-description{
+.hero-description {
   font-size: 16px;
   /* background: #fff; */
 }
+
