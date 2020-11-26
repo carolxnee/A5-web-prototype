@@ -374,10 +374,45 @@
   flex-direction:column;
   justify-content:center;
   color: #000;
+  background-color:blanchedalmond;
   background-image: ;
   transition: 0.3s ease-in;
 }
 
+.projects-card h2{
+  text-align: center;
+}
 
+.projects-card p{
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.projects-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.projects-card button{
+  color:#fff;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color:blueviolet;
+  font-size: 1rem;
+}
+
+.projects-card button:hover{
+  cursor: pointer;
+}
+
+.projects-card:hover{
+  transform:scale(1.075);
+  transition: 0.5s ease in;
+  cursor: pointer;
+}
 
 
