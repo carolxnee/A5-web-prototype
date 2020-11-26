@@ -341,9 +341,22 @@
     margin-top: 1rem;
     font-size: 1em;
   }
+}
   
-  
+  /* Projects Section */
+.projects{
+  /*background: #fff;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
+}
 
+.projects h1{
+  margin-bottom: 5rem;
+  font-size: 2.5em;
 }
 
 
