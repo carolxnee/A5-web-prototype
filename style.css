@@ -178,10 +178,20 @@
 }
 
 /* Hero Section */
-.hero{
+.hero-heading{
   background: #fff;
-  padding: 200px 0;
+  padding: 70px 0px 20px 0px;
 }
+
+ .hero-description{ 
+  background: #fff;
+  padding: 0px 0px 20px 0px;
+ }
+
+/*.main-btn{
+  background: #fff;
+  padding: 50px 0px 0px 0px;
+}*/
 
 .hero-container{
   display: flex;
