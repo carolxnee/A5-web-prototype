@@ -4,7 +4,6 @@
   padding: 0;
   font-family: 'Avenir Next', sans-serif;
   scroll-behaviour: smooth;
-  background: #fff;
 }
 
 .navbar{
@@ -179,15 +178,23 @@
 }
 
 /* Hero Section */
+.hero{
+  background: url('forest.cpr.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+  
+}
 .hero-heading{
-  background: #fff;
+  /* background: url('forest.jpg');; */
   padding: 70px 0px 20px 0px;
   color: #000;
   font-size: 30px;
 }
 
  .hero-description{ 
-  background: #fff;
+  /* background:url('forest.jpg'); */
   padding: 0px 0px 20px 0px;
  }
 
@@ -210,5 +217,5 @@
 
 .hero-description{
   font-size: 16px;
-  background: #fff;
+  /* background: #fff; */
 }
