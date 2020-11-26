@@ -186,26 +186,25 @@
   height: 100vh;
   background-position: center;
   background-size: cover;
-  
-  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+
 .hero-heading{
   /* background: url('forest.jpg');; */
   padding: 70px 0px 20px 0px;
   color: #fff;
-  font-size: 30px;
+  font-size: clamp(10px, 8vw, 4em);
 }
 
  .hero-description{ 
   /* background:url('forest.jpg'); */
   padding: 0px 0px 20px 0px;
   color:#fff;
+  font-size: clamp(1rem, 4vw 2.5rem);
+  margin-bottom: 3rem;
  }
-
-/*.main-btn{
-  background: #fff;
-  padding: 50px 0px 0px 0px;
-}*/
 
 .hero-container{
   display: flex;
@@ -219,8 +218,10 @@
   padding: 30px;
 }
 
-.hero-description {
-  font-size: 16px;
-  /* background: #fff; */
+.main-btn{
+  padding: 1rem 3rem;
+  border: none;
+  background: var(--blue);
+  color: var (--white);
+  font-size: 1rem;
 }
-
