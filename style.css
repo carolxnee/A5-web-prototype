@@ -217,6 +217,7 @@
   text-align: center;
   padding: 30px;
 }
+
 /* donate button on main page */
 .main-btn{
   padding: 1rem 3rem;
@@ -234,3 +235,24 @@
 .main-btn:hover {
   background:#000
 }
+
+/*About Section*/
+.main {
+  background-color: #fff;
+  padding: 10rem 0;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+
+
