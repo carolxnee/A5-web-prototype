@@ -75,6 +75,7 @@
   transition: all 0.3s ease;
   }
 
+/* Affordances to let user know these are links */
 .navbar-links:hover{
   text-decoration: underline;
 }
@@ -174,5 +175,24 @@
 #mobile-menu.is-active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg); 
   }
+}
+
+/* Hero Section */
+.hero{
+  background: #fff;
+  padding: 200px 0;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+  
 }
 
