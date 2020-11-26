@@ -359,4 +359,25 @@
   font-size: 2.5em;
 }
 
+.projects-wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.projects-card{
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  color: #000;
+  background-image: ;
+  transition: 0.3s ease-in;
+}
+
+
+
 
