@@ -301,7 +301,7 @@
   
 }
 
-/*mobile responsive about page*/
+/*mobile responsive 'About Us' page*/
 @media screen and (max-width: 1100px){
   .main-container{
     display: grid;
@@ -334,6 +334,16 @@
   }
 
   .main-content h2{
+    font-size: 1.5em;
+  }
+
+  .main-content p{
+    margin-top: 1rem;
     font-size: 1em;
   }
+  
+  
+
 }
+
+
