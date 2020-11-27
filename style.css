@@ -349,7 +349,7 @@ cursor: pointer;
 
 .about-content{
   color: #000;
-  width: 80%;
+  width: 100%;
 }
 
 .chart-img--container{
@@ -429,7 +429,7 @@ cursor: pointer;
   .main-content{
     text-align: center;
     margin-bottom: 4rem;
-    transform: scale(0.9)
+    transform: scale(0.8);
   }
 
   .main-content h1{
@@ -459,13 +459,13 @@ cursor: pointer;
   
   /* Projects Section */
 .projects{
-  /*background: #fff;*/
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 10rem 0;
+  padding: 10rem 0
 }
 
 .projects h1{
@@ -487,7 +487,7 @@ cursor: pointer;
   display: flex;
   flex-direction:column;
   justify-content:center;
-  color: #000;
+  color: #fff;
   background-color:blanchedalmond;
   background-image: ;
   transition: 0.3s ease-in;
@@ -523,7 +523,6 @@ cursor: pointer;
   cursor: pointer;
   background:#000;
   transform:scale(1.075);
-
 }
 
 /* affordances created using scale animation */
@@ -532,6 +531,22 @@ cursor: pointer;
   transition: 0.5s ease in;
   cursor: pointer;
 }
+
+#pc1{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('haiti.png');
+  }
+
+#pc2{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('famine.png');
+  }
+
+#pc3{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('drought.png');
+  }
+
+#pc4{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('typhoon.png');
+  }
 
 /* mobile friendly 'Current Projects' page */
 @media screen and (max-width: 1300px){
