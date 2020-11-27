@@ -67,7 +67,7 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: 10px 0px;
+  padding: 0px 0px;
   height: 100%;
   width: 100%;
   border: none;
@@ -77,6 +77,13 @@
   color: #000;
   transition: all 0.3s ease;
   }
+
+.button:hover{
+  cursor: pointer;
+  background:#000;
+  transform:scale(1.075);
+}
+
 
 /* underline used as an affordance to let user know these are links */
 .navbar-links:hover{
@@ -144,7 +151,10 @@
 .navbar-btn{
   padding: 0em 0em 0em 0em;
   padding-bottom: 2em;
+  text-decoration: none;
+
 }
+
 
 .button{
   display: flex;
@@ -154,6 +164,13 @@
   height: 30px;
   margin: 0px 0px 30px 65px
 }
+
+.button:hover{
+cursor: pointer;
+  background:#000;
+  transform:scale(1.075);
+}
+
 
 #mobile-menu{
   position: absolute;
