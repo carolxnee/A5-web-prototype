@@ -240,6 +240,19 @@ cursor: pointer;
   padding: 30px;
 }
 
+/* donation form */
+#donate-val{
+  color: #000;
+  padding: 1rem 3rem;
+  border: none;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 4px;
+}
+
 
 /* ABOUT PAGE SECTION */
 
@@ -459,7 +472,9 @@ cursor: pointer;
    }
 
     .main-content form{
-      padding: 60px 10px;
+      display: block;
+      margin: 0 auto;
+      width: 100px;
     }
   
 }
