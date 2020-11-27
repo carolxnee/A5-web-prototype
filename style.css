@@ -31,7 +31,6 @@
 
 #navbar-logo{
   padding-left: 6em;
-  background-image: 
 }
 
 
@@ -50,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
+  width: 125px;
   text-decoration: none;
   height: 100%;
 }
@@ -59,7 +58,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px;
+  padding: 0 1em;
   width: 100%;
 }
 
@@ -68,9 +67,12 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: -5em;
+  padding: 0px 0px;
   height: 100%;
   width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
   background: coral;
   color: #000;
   transition: all 0.3s ease;
@@ -140,23 +142,23 @@
 }
 
 .navbar-btn{
-  padding: 0em 10em 0em 0em;
+  padding: 0em 0em 0em 0em;
   padding-bottom: 2em;
 }
 
 .button{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 80px;
-  margin:0;
+  justify-content:center;
+  align-items:center;
+  width: 80px;
+  height: 30px;
+  margin: 0px 0px 30px 65px
 }
 
 #mobile-menu{
   position: absolute;
-  top: 20%;
-  right: 5%;
+  top: 5%;
+  right: 3%;
   transform: translate(5%, 20%);
 }
 
