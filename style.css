@@ -236,6 +236,10 @@ cursor: pointer;
   padding: 30px;
 }
 
+
+/* ABOUT PAGE SECTION */
+
+
 /* donate button on main page */
 .main-btn{
   padding: 1rem 3rem;
@@ -254,7 +258,7 @@ cursor: pointer;
   background:#000
 }
 
-/*About Section*/
+/*About content*/
 .main {
   background-color: #fff;
   padding: 10rem 0;
@@ -269,7 +273,7 @@ cursor: pointer;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 50px;
+  padding: 0 auto;
 }
 
 .main-content{
@@ -313,12 +317,49 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 } 
 
-.chart-img{
-  height: 300px;
-  width: 375px;
-  
+.windowkids-img{
+  height: 600px;
+  width: 425px;
+  border-radius: 4px;
+  margin-left: 150px;
+}
+
+/* ABOUT CONT. */
+
+.about-cont{
+  background-color: #fff;
+  padding: 1rem 0;
+}
+.chart-img--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 auto;
+}
+
+.chart-img--card{
+  margin: 10px;
+  height: 400px;
+  width: 400px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.chart-img {
+  margin-left: 200px;
+  height: 350px;
+  width: 600px;
+  border-radius: 4px;
 }
 
 /*mobile responsive 'About Us' page*/
