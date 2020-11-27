@@ -408,6 +408,9 @@
 
 .projects-card button:hover{
   cursor: pointer;
+  background:#000;
+  transform:scale(1.075);
+
 }
 
 /* affordances created using scale animation */
@@ -476,7 +479,7 @@
 }
 
 .footer-link-items a{
-  color: #131313;
+  color: #000;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -486,9 +489,29 @@
   transition: 0.3s ease-out;
 }
 
-/* social icons */
 
+/* mobile responsive footer section */
+@media screen and (max-width: 820px){
+  .footer-links{
+    padding-top: 2rem;
+}
 
+#footer-logo{
+  margin-button: 2rem;
+}
+
+.footer-link-wrapper{
+  flex-direction: column;
+}
+}
+
+/* mobile responsive footer section for even smaller screens */
+@media screen and (max-width: 480px){
+  .footer-link-items{
+    margin: 20px;
+    width: 100%;
+  }
+}
 
 
 
