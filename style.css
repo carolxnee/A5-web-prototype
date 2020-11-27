@@ -456,7 +456,12 @@ cursor: pointer;
    .main-content h4{
     margin-bottom: 1rem;
     font-size: 1em;
-  }
+   }
+
+    .main-content form{
+      padding: 60px 10px;
+    }
+  
 }
   
   /* Projects Section */
