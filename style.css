@@ -83,7 +83,7 @@
 
 .button:hover{
   cursor: pointer;
-  background:#000;
+  background:#6EAA22;
   transform:scale(1.075);
 }
 
@@ -161,6 +161,8 @@
 
 .button{
   display: flex;
+  text-decoration: none;
+  color:#000;
   justify-content:center;
   align-items:center;
   width: 80px;
@@ -170,7 +172,7 @@
 
 .button:hover{
 cursor: pointer;
-  background:#000;
+  background:#8CC80F;
   transform:scale(1.075);
 }
 
@@ -243,22 +245,21 @@ cursor: pointer;
 /* ABOUT PAGE SECTION */
 
 
-/* donate button on main page */
 .main-btn{
+  text-decoration: none;
+  color: #000;
   padding: 1rem 3rem;
   border: none;
   background: coral;
-  color: #fff;
   font-size: 1rem;
   cursor: pointer;
   outline: none;
   transition: 0.3s ease;
-  text-decoration: none;
   border-radius: 4px;
 }
 
 .main-btn:hover {
-  background:#000
+  background:#8CC80F;
 }
 
 /*About content*/
@@ -305,7 +306,7 @@ cursor: pointer;
   border: none;
   border-radius: 4px;
   margin-top: 2em;
-  cursor: pointer; /* affordances - a link*/
+  cursor: pointer;
   position: relative;
   z-index: 2;
   color: #fff;
