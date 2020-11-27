@@ -151,11 +151,10 @@
   display: table;
 }
 
-.navbar-btn{
+#navbar-btn{
   padding: 0em 0em 0em 0em;
   padding-bottom: 2em;
   text-decoration: none;
-
 }
 
 
@@ -261,6 +260,8 @@ cursor: pointer;
 .main-btn:hover {
   background:#8CC80F;
 }
+
+
 
 /*About content*/
 .main {
@@ -396,10 +397,7 @@ cursor: pointer;
     margin: 0 auto;
     height: 90%;
   }
-/*   <div class="about-cont" id="about.cont">
-    <div class="about-cont-container">
-      <div class=".chart-img--container">
-        <div class= "chart-img--card"> */
+
     .about-cont-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -565,6 +563,17 @@ cursor: pointer;
   }
 }
 
+/* Shop Section */
+#shop{
+  margin-top: 100px;
+}
+
+/* Get Involved Section */
+#get-involved{
+  margin-top: 100px;
+}
+
+
 /* Footer Section CSS */
 .footer-container{
   background-color: #fff;
@@ -644,6 +653,7 @@ cursor: pointer;
     width: 100%;
   }
 }
+
 
 
 
