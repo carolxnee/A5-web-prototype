@@ -253,6 +253,10 @@ cursor: pointer;
   border-radius: 4px;
 }
 
+.label-donate{
+color:rgb(224, 211, 211);
+font-size: 1 rem;
+}
 
 /* ABOUT PAGE SECTION */
 
