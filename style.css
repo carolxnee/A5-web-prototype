@@ -225,7 +225,7 @@ cursor: pointer;
   padding: 0px 0px 20px 0px;
   color:#fff;
   font-size: clamp(1rem, 4vw 2.5rem);
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
  }
 
 .hero-container{
@@ -238,6 +238,7 @@ cursor: pointer;
   height: 90%;
   text-align: center;
   padding: 30px;
+  margin-top: 1rem;
 }
 
 /* donation form */
@@ -256,6 +257,18 @@ cursor: pointer;
 .label-donate{
 color:rgb(224, 211, 211);
 font-size: 1 rem;
+padding: 0px;
+}
+
+.label-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
 }
 
 /* ABOUT PAGE SECTION */
@@ -272,6 +285,7 @@ font-size: 1 rem;
   outline: none;
   transition: 0.3s ease;
   border-radius: 4px;
+  margin-top: 1rem;
 }
 
 .main-btn:hover {
