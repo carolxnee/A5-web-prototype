@@ -612,6 +612,40 @@ padding: 0px;
   margin-top: 100px;
 }
 
+/* email form CSS */
+#first-name{
+  padding: 0.3rem 3rem;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+#last-name{
+  padding: 0.3rem 3rem;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 4px;
+  margin-left:2px;
+  margin-bottom: 10px;
+}
+#email{
+  padding: 0.3rem 3rem;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 4px;
+  margin-left: 37px;
+  margin-bottom: 10px;
+}
+
 
 /* Footer Section CSS */
 .footer-container{
