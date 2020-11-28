@@ -238,15 +238,15 @@ cursor: pointer;
   height: 90%;
   text-align: center;
   padding: 30px;
-  margin-top: 1rem;
+  margin-top: 10rem;
 }
 
 /* donation form */
 #donate-val{
   color: #000;
   padding: 1rem 3rem;
-  border: none;
-  background: #fff;
+  border: #000;
+  background: none;
   font-size: 1rem;
   cursor: pointer;
   outline: none;
@@ -269,6 +269,7 @@ padding: 0px;
   margin: 0 auto;
   height: 90%;
   text-align: center;
+  padding: 2rem;
 }
 
 /* ABOUT PAGE SECTION */
